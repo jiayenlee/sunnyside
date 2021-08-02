@@ -378,8 +378,6 @@ nav {
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-
-
 }
 
 
@@ -400,6 +398,12 @@ nav {
   .cards {
     display: grid;
     grid-template-columns: 1fr;
+    height: 120vh;
+  }
+
+  .section2-cards {
+    display: flex;
+    flex-direction: column-reverse;
     height: 120vh;
   }
 
@@ -427,7 +431,7 @@ nav {
   }
 
   .section4-card {
-    margin: -50% auto;
+    margin: -55% auto;
   }
 
   .section5-cards {
@@ -451,11 +455,15 @@ nav {
 @media (min-width: 300px) and (max-width: 400px) {
 
   .section4-card {
-    margin: -65% auto;
+    margin: -70% auto;
   }
 
   .footer-info {
     width: 80%;
+  }
+
+  .testimonial-card > .card-info {
+    width: 100%;
   }
 
 
